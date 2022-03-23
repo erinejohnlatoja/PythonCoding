@@ -1,0 +1,14 @@
+#Basic Addition Calculator in Decimals
+num1 = input("Enter a number: ")  #ask user to enter a number.
+num2 = input("Enter another number: ")
+result = float(num1) + float(num2)     #adds num1 & num2 and gives out the total.
+print("Your Total is " + str(result) + "!")
+
+
+#Basic Addition Calculator in Whole Numbers
+num1 = input("Enter a number: ")  #ask user to enter a number.
+num2 = input("Enter another number: ")
+result = int(num1) + int(num2)     #adds num1 & num2 and gives out the total.
+print("Your Total is " + str(result) + "!")
+
+
